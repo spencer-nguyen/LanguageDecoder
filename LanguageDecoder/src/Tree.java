@@ -19,7 +19,8 @@ public class Tree{
 	private class Node{
 		
 		private String data;
-		Node left, right;
+		Node left;
+		Node right;
 		
 		Node(String data){
 			this.data = data;
